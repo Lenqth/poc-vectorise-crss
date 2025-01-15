@@ -4,6 +4,10 @@ https://github.com/gnknzm/crss.gnknzm.net
 
 において、ダジャレの重複を見つけるために、ベクトル化をやってみる
 
+## 前提
+
+とりあえず、ローカルのollamaにmxbai-embed-largeを入れておく。
+poetryでパッケージを入れる。
 
 ## make vectors.json
 

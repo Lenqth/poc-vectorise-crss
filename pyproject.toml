@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "crss-similarity"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.3.14"
+langchain-community = "^0.3.14"
+langchain-ollama = "^0.2.2"
+scikit-learn = "^1.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
